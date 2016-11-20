@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef9b00"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/norder"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#f8eff8f3"
+        android:text="New Order"
+        android:layout_centerVertical="true"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/createorder"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/norder"
+        android:layout_centerVertical="true"
+        android:background="#f8eff8f3"
+        android:text="Create Order"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/orderHistory"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/norder"
+        android:layout_marginTop="16dp"
+        android:background="#f8eff8f3"
+        android:text="Order History"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/orderHistory"
+        android:layout_below="@id/createorder"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="16dp"
+        android:background="#f8eff8f3"
+        android:text="Help"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderHistory"
+        android:layout_marginTop="16dp"
+        android:background="#f8eff8f3"
+        android:gravity="top"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:padding="16dp" />
+    <Button
+    android:id="@+id/getdirection"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/profile"
+    android:layout_marginTop="16dp"
+    android:background="#f8eff8f3"
+    android:text="Get Direction"
+    android:padding="16dp" />
+
+    <Button
+        android:id="@+id/delivered"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/getdirection"
+        android:layout_below="@id/profile"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="16dp"
+        android:background="#f8eff8f3"
+        android:text="Delivered"
+        android:padding="16dp"/>
+
+</RelativeLayout>
